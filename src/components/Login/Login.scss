@@ -1,0 +1,229 @@
+.div {
+    gap: 20px;
+    display: flex;
+  }
+  @media (max-width: 991px) {
+    .div {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0px;
+    }
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 50%;
+    margin-left: 0px;
+  }
+  @media (max-width: 991px) {
+    .column {
+      width: 100%;
+    }
+  }
+  .img {
+    aspect-ratio: 0.67;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+    flex-grow: 1;
+  }
+  @media (max-width: 991px) {
+    .img {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .column-2 {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 50%;
+    margin-left: 20px;
+  }
+  @media (max-width: 991px) {
+    .column-2 {
+      width: 100%;
+    }
+  }
+  .div-2 {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    font-weight: 400;
+    margin: auto 0;
+    padding: 0 20px;
+  }
+  @media (max-width: 991px) {
+    .div-2 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .div-3 {
+    color: #567281;
+    font: 64px Inter, sans-serif;
+    span{
+        font-family: Istok Web, sans-serif;
+         font-weight: 700;
+          color: rgba(122,153,156,1);
+          font-size: 48px
+    }
+  }
+  @media (max-width: 991px) {
+    .div-3 {
+      max-width: 100%;
+      font-size: 40px;
+    }
+  }
+  .div-4 {
+    display: flex;
+    margin-top: 68px;
+    padding-left: 76px;
+    flex-direction: column;
+    align-items: start;
+    font-size: 24px;
+  }
+  @media (max-width: 991px) {
+    .div-4 {
+      max-width: 100%;
+      padding-left: 20px;
+      margin-top: 40px;
+    }
+  }
+  .div-5 {
+    align-self: center;
+    display: flex;
+    width: 273px;
+    max-width: 100%;
+    gap: 20px;
+    font-size: 36px;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  @media (max-width: 991px) {
+    .div-5 {
+      white-space: initial;
+    }
+  }
+  .div-6 {
+    display: flex;
+    flex-direction: column;
+    color: #5f7c8d;
+    flex: 1;
+  }
+  @media (max-width: 991px) {
+    .div-6 {
+      white-space: initial;
+    }
+  }
+  .div-7 {
+    font-family: Istok Web, sans-serif;
+    align-self: center;
+  }
+  .div-8 {
+    border-color: rgba(95, 124, 141, 1);
+    border-style: solid;
+    border-width: 3px;
+    background-color: #5f7c8d;
+    margin-top: 6px;
+    height: 3px;
+  }
+  .div-9 {
+    color: rgba(95, 124, 141, 0.39);
+    font-family: Istok Web, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+  }
+  .div-10 {
+    color: rgba(95, 124, 141, 0.55);
+    font-family: Istok Web, sans-serif;
+    margin-top: 133px;
+  }
+  @media (max-width: 991px) {
+    .div-10 {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
+  .div-11 {
+    border-color: rgba(95, 124, 141, 1);
+    border-style: solid;
+    border-width: 3px;
+    background-color: #5f7c8d;
+    margin-top: 14px;
+    height: 3px;
+  }
+  @media (max-width: 991px) {
+    .div-11 {
+      max-width: 100%;
+    }
+  }
+  .div-12 {
+    display: flex;
+    margin-top: 67px;
+    gap: 20px;
+    color: rgba(95, 124, 141, 0.55);
+  }
+  @media (max-width: 991px) {
+    .div-12 {
+      max-width: 100%;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+  }
+  .div-13 {
+    font-family: Istok Web, sans-serif;
+    flex-grow: 1;
+    flex-basis: auto;
+  }
+  .img-2 {
+    aspect-ratio: 1.09;
+    object-fit: auto;
+    object-position: center;
+    width: 26px;
+    fill: #5f7c8d;
+  }
+  .div-14 {
+    border-color: rgba(95, 124, 141, 1);
+    border-style: solid;
+    border-width: 3px;
+    background-color: #5f7c8d;
+    margin-top: 7px;
+    height: 5px;
+  }
+  @media (max-width: 991px) {
+    .div-14 {
+      max-width: 100%;
+    }
+  }
+  .div-15 {
+    font-family: Istok Web, sans-serif;
+    background-color: #4b687a;
+    margin-top: 61px;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    white-space: nowrap;
+    justify-content: center;
+    padding: 16px 60px;
+  }
+  @media (max-width: 991px) {
+    .div-15 {
+      max-width: 100%;
+      margin-top: 40px;
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+  .div-16 {
+    color: rgba(95, 124, 141, 0.55);
+    font-family: Istok Web, sans-serif;
+    align-self: center;
+    margin: 44px 0 0 39px;
+  }
+  @media (max-width: 991px) {
+    .div-16 {
+      margin-top: 40px;
+    }
+  }
