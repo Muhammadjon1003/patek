@@ -1,5 +1,4 @@
 import "./Nav.scss"
-import LogoEmbelem from "../../assets/Logo_emblem.tsx";
 import Logo from "../../assets/Logo.tsx";
 import Search from "../../assets/Search.tsx";
 import World from "../../assets/World.tsx";
@@ -11,31 +10,29 @@ import SearchPanel from "../search-panel/SearchPanel.tsx";
 
 const Nav = () => {
   const {pathname} = useLocation();
-  const [isNavPinned, setIsNavPinned] = useState<boolean>(false);
   const [isSearchActive, setIsSearchActive] = useState<boolean>(false);
-
-  window.addEventListener("scroll", () => {
-    if(window.scrollY > 40){
-      setIsNavPinned(true)
-    }
-    else{
-      setIsNavPinned(false)
-    }
-  })
-
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
 
   return (
-    <nav className="nav" id="nav" role="navigation" data-is-navbar-pinned={isNavPinned}>
+    <nav className="nav" id="nav" role="navigation">
       <div className="container container--sm">
         <div className="nav__wrapper">
-          <div className="nav__top">
-            <Link to="/" className="nav__logo">
-              <Logo/>
-            </Link>
-          </div>
+          <Link to="/" className="nav__logo">
+            <Logo/>
+          </Link>
+          
           <div className="nav__bottom">
-            <ul className="nav__list">
-                <li className={`list__item ${pathname === "/" ? "active" : ""}`}><NavLink className="navigation-home" to={"/"}> <span>Home</span> <LogoEmbelem/> </NavLink></li>
+            <button 
+              className={`nav__mobile-toggle ${isMobileMenuOpen ? 'active' : ''}`}
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              aria-label="Toggle menu"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <ul className={`nav__list ${isMobileMenuOpen ? 'nav__list--open' : ''}`}>
+                <li className={`list__item ${pathname === "/" ? "active" : ""}`}><NavLink className="navigation-home" to={"/"}> <span>Home</span> </NavLink></li>
                 <li className="list__item">Collections</li>
                 <li className="list__item">Company</li>
                 <li className="list__item">Retail&Service</li>

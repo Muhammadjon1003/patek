@@ -250,3 +250,137 @@
         }
     }
 }
+
+// Tablet styles
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding: 60px 0 25px;
+
+    .footer__wrapper {
+      .footer__top {
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px 15px;
+
+        ul {
+          min-width: 160px;
+          
+          li {
+            font-size: 15px;
+            line-height: 16px;
+
+            &:nth-of-type(1) {
+              font-size: 16px;
+              line-height: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Mobile styles
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 40px 0 20px;
+
+    .footer__wrapper {
+      .footer__top {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding: 15px;
+
+        ul {
+          align-items: center;
+          text-align: center;
+          max-width: 100%;
+
+          li {
+            text-align: center;
+            
+            &::after {
+              left: 50%;
+              transform: translateX(-50%);
+            }
+          }
+
+          &:nth-of-type(1), 
+          &:nth-of-type(2),
+          &:nth-of-type(3),
+          &:nth-of-type(4) {
+            li {
+              text-align: center;
+            }
+          }
+        }
+
+        ul:nth-of-type(4) {
+          .icon {
+            margin: 0 10px;
+          }
+        }
+      }
+
+      .footer__line {
+        margin: 20px 0 15px;
+      }
+
+      .footer__bottom {
+        font-size: 10px;
+        line-height: 16px;
+        padding: 0 15px;
+      }
+
+      .footer__logo {
+        max-width: 120px;
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+// Small mobile styles
+@media screen and (max-width: 468px) {
+  .footer {
+    padding: 30px 0 15px;
+
+    .footer__wrapper {
+      .footer__top {
+        gap: 30px;
+        
+        ul {
+          li {
+            font-size: 14px;
+            line-height: 15px;
+
+            &:nth-of-type(1) {
+              font-size: 15px;
+              line-height: 17px;
+            }
+          }
+        }
+
+        ul:nth-of-type(4) {
+          .icon {
+            width: 30px;
+            height: 30px;
+            margin: 0 8px;
+          }
+        }
+      }
+
+      .footer__bottom {
+        font-size: 9px;
+        line-height: 14px;
+      }
+
+      .footer__logo {
+        max-width: 100px;
+        margin-top: 15px;
+      }
+    }
+  }
+}

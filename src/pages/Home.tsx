@@ -1,4 +1,3 @@
-import Auth from '../components/auth/Auth'
 import Hero from '../components/hero/Hero'
 import Highlights from '../components/highlights/Highlights'
 import Carousel from '../components/home_carousel/home_Carousel'
@@ -11,7 +10,6 @@ const Home = () => {
    <Highlights/>
    <Products/>
    <Carousel/>
-   <Auth/>
   </>
   )
 }

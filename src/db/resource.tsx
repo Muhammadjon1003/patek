@@ -1,4 +1,6 @@
-const patek =[
+import { CollectionType } from "../types";
+
+const patek: CollectionType[]=[
     {
         title: "grand complications",
         pathname: "grand-complications",
@@ -24,8 +26,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 2,
@@ -43,8 +46,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 3,
@@ -62,8 +66,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 4,
@@ -81,8 +86,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 5,
@@ -100,8 +106,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 6,
@@ -119,8 +126,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 7,
@@ -138,8 +146,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 8,
@@ -157,8 +166,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 9,
@@ -176,8 +186,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 10,
@@ -195,8 +206,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 11,
@@ -214,8 +226,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 12,
@@ -233,8 +246,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 13,
@@ -252,8 +266,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 14,
@@ -271,8 +286,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 15,
@@ -290,8 +306,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 16,
@@ -309,8 +326,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 17,
@@ -328,8 +346,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 18,
@@ -347,8 +366,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 19,
@@ -366,8 +386,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 20,
@@ -385,8 +406,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 21,
@@ -404,8 +426,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 22,
@@ -423,8 +446,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 23,
@@ -442,8 +466,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 24,
@@ -461,8 +486,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 25,
@@ -480,8 +506,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 26,
@@ -499,8 +526,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 27,
@@ -518,8 +546,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 28,
@@ -537,8 +566,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 29,
@@ -556,8 +586,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 30,
@@ -575,8 +606,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 31,
@@ -594,8 +626,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 32,
@@ -613,8 +646,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 33,
@@ -632,8 +666,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 34,
@@ -651,8 +686,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 35,
@@ -670,8 +706,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 36,
@@ -689,8 +726,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 37,
@@ -708,8 +746,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 38,
@@ -727,8 +766,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 39,
@@ -746,8 +786,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 40,
@@ -765,8 +806,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 41,
@@ -784,8 +826,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "grand-complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             }
         ]
     },
@@ -814,8 +857,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 2,
@@ -833,8 +877,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 3,
@@ -852,8 +897,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 4,
@@ -871,8 +917,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 5,
@@ -890,8 +937,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 6,
@@ -909,8 +957,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 7,
@@ -928,8 +977,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 8,
@@ -947,8 +997,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 9,
@@ -966,8 +1017,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 10,
@@ -985,8 +1037,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 11,
@@ -1004,8 +1057,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 12,
@@ -1023,8 +1077,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 13,
@@ -1042,8 +1097,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 14,
@@ -1061,8 +1117,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 15,
@@ -1080,8 +1137,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 16,
@@ -1099,8 +1157,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 17,
@@ -1118,8 +1177,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 18,
@@ -1137,8 +1197,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 19,
@@ -1156,8 +1217,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 20,
@@ -1175,8 +1237,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 21,
@@ -1194,8 +1257,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 22,
@@ -1213,8 +1277,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 23,
@@ -1232,8 +1297,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 24,
@@ -1251,8 +1317,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 25,
@@ -1270,8 +1337,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 26,
@@ -1289,8 +1357,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 27,
@@ -1308,8 +1377,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 28,
@@ -1327,8 +1397,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 29,
@@ -1346,8 +1417,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 30,
@@ -1365,8 +1437,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 31,
@@ -1384,9 +1457,10 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
-            }
+                collection_name: "complications",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
+            },
         ]
     },
     {
@@ -1414,8 +1488,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "calatrava",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 2,
@@ -1433,8 +1508,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "calatrava",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 3,
@@ -1452,8 +1528,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "calatrava",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 4,
@@ -1471,8 +1548,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "calatrava",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 5,
@@ -1490,8 +1568,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "calatrava",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 6,
@@ -1509,8 +1588,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "calatrava",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 7,
@@ -1528,8 +1608,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "calatrava",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 8,
@@ -1547,8 +1628,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "calatrava",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 9,
@@ -1566,8 +1648,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "calatrava",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 10,
@@ -1585,8 +1668,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "calatrava",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 11,
@@ -1604,8 +1688,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "calatrava",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 12,
@@ -1623,8 +1708,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "calatrava",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 13,
@@ -1642,8 +1728,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "calatrava",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             }
         ]
     },
@@ -1672,8 +1759,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "gondolo",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 2,
@@ -1691,8 +1779,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "gondolo",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 3,
@@ -1710,8 +1799,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "gondolo",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 4,
@@ -1729,8 +1819,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "gondolo",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             }
         ]
     },
@@ -1759,8 +1850,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "golden-ellipse",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 2,
@@ -1778,8 +1870,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "golden-ellipse",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 3,
@@ -1797,8 +1890,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "golden-ellipse",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 4,
@@ -1816,8 +1910,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "golden-ellipse",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             }
         ]
     },
@@ -1846,8 +1941,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 2,
@@ -1865,8 +1961,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 3,
@@ -1884,8 +1981,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 4,
@@ -1903,8 +2001,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 5,
@@ -1922,8 +2021,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 6,
@@ -1941,8 +2041,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 7,
@@ -1960,8 +2061,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 8,
@@ -1979,8 +2081,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 9,
@@ -1998,8 +2101,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 10,
@@ -2017,8 +2121,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 11,
@@ -2036,8 +2141,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 12,
@@ -2055,8 +2161,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 13,
@@ -2074,8 +2181,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 14,
@@ -2094,7 +2202,8 @@ const patek =[
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
                 collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 15,
@@ -2112,8 +2221,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 16,
@@ -2131,8 +2241,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 17,
@@ -2150,8 +2261,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 18,
@@ -2169,8 +2281,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 19,
@@ -2188,8 +2301,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 20,
@@ -2207,8 +2321,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 21,
@@ -2226,8 +2341,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 22,
@@ -2245,8 +2361,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 23,
@@ -2264,8 +2381,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 24,
@@ -2283,8 +2401,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 25,
@@ -2302,8 +2421,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 26,
@@ -2321,8 +2441,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 27,
@@ -2340,8 +2461,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 28,
@@ -2359,8 +2481,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "nautilus",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             }
         ]
     },
@@ -2389,8 +2512,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "aquanaut",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 2,
@@ -2408,8 +2532,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "aquanaut",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 3,
@@ -2427,8 +2552,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "aquanaut",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 4,
@@ -2446,8 +2572,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "aquanaut",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 5,
@@ -2465,8 +2592,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "aquanaut",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 6,
@@ -2484,8 +2612,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "aquanaut",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 7,
@@ -2503,8 +2632,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "aquanaut",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 8,
@@ -2522,8 +2652,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "aquanaut",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 9,
@@ -2541,8 +2672,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "aquanaut",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 10,
@@ -2560,8 +2692,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "aquanaut",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 11,
@@ -2579,8 +2712,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "aquanaut",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 12,
@@ -2598,8 +2732,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "aquanaut",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 13,
@@ -2617,8 +2752,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "aquanaut",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 14,
@@ -2636,8 +2772,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "aquanaut",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 15,
@@ -2656,7 +2793,8 @@ const patek =[
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
                 collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 16,
@@ -2674,8 +2812,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "aquanaut",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 17,
@@ -2693,8 +2832,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "aquanaut",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 18,
@@ -2712,8 +2852,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "aquanaut",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 19,
@@ -2731,8 +2872,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "aquanaut",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 20,
@@ -2750,8 +2892,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "aquanaut",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             }
         ]
     },
@@ -2780,8 +2923,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "twenty-4",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 2,
@@ -2799,8 +2943,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "twenty-4",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 3,
@@ -2818,8 +2963,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "twenty-4",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 4,
@@ -2837,8 +2983,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "twenty-4",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 5,
@@ -2856,8 +3003,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "twenty-4",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 6,
@@ -2875,8 +3023,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "twenty-4",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 7,
@@ -2894,8 +3043,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "twenty-4",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 8,
@@ -2913,8 +3063,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "twenty-4",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 9,
@@ -2932,8 +3083,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "twenty-4",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             },
             {
                 id: 10,
@@ -2951,8 +3103,9 @@ const patek =[
                     "https://static.patek.com/images/articles/gallery/2200/5327G_001_1@2x.jpg",
                     "https://static.patek.com/images/jewels/face/270/205_9083GR_001.jpg"
                 ],
-                collection_name: "Grand Complications",
-                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg"
+                collection_name: "twenty-4",
+                img: "https://static.patek.com/images/articles/face_white/180/5327G_001_1@2x.jpg",
+                isLiked: false
             }
         ]
     }
